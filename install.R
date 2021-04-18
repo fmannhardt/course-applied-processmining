@@ -1,1 +1,1 @@
-install.packages(c("tidyverse", "bupaR", "processanimateR"))
+install.packages(c("bupaR", "processanimateR"))
