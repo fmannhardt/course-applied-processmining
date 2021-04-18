@@ -8,11 +8,25 @@ The notebooks in this repository are part of the Process Mining module of the JA
 
 ## Installation \& Usage
 
+**TBD**
+
 ## Table of Contents
 
-### 'Block 1 - 'Event Logs and Process Visualization'
+### Block 1 - 'Event Logs and Process Visualization'
+
+* Lecture Notebooks
+    *  R [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/fmannhardt/course-processmining-intro/HEAD?filepath=r%2Flecture1.ipynb)
+    *  Python 
+
+* Exercise Notebooks
+    *  R 
+    *  Python 
 
 ### 'Block 2 - 'Process Discovery'
 
+**TBD**
+
 ### 'Block 3 - 'Process Mining Applications'
+
+**TBD**
 
