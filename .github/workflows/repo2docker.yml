@@ -15,3 +15,5 @@ jobs:
         DOCKER_USERNAME: ${{ github.actor }}
         DOCKER_PASSWORD: ${{ secrets.GITHUB_TOKEN }}
         BINDER_CACHE: true        
+        DOCKER_REGISTRY: "ghcr.io"
+        IMAGE_NAME: "fmannhardt/course-processmining-intro"
