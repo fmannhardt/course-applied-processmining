@@ -2,11 +2,16 @@ name: Binder
 on: [push]
 
 jobs:
-  Create-MyBinderOrg-Cache:
+  Build:
     runs-on: ubuntu-latest
     steps:
-    - name: cache binder build on mybinder.org
-      uses: jupyterhub/repo2docker-action@master
+
+    - name: checkout files in repo
+      uses: actions/checkout@master
+
+    - name: update jupyter dependencies with repo2docker
+      uses: machine-learning-apps/repo2docker-action@master
       with:
-        NO_PUSH: true
-        MYBINDERORG_TAG: ${{ github.event.ref }} # This builds the container on mybinder.org with the branch that was pushed on.
+        DOCKER_USERNAME: ${{ github.actor }}
+        DOCKER_PASSWORD: ${{ secrets.GITHUB_TOKEN }}
+        MYBINDERORG_CACHE: true        
