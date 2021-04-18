@@ -14,4 +14,4 @@ jobs:
       with:
         DOCKER_USERNAME: ${{ github.actor }}
         DOCKER_PASSWORD: ${{ secrets.GITHUB_TOKEN }}
-        MYBINDERORG_CACHE: true        
+        BINDER_CACHE: true        
