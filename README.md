@@ -1,6 +1,6 @@
 # Process Mining Module -  PDEng program Data Science - JADS 
 
-* **Responsibel Group**: [Process Analytics group](https://pa.win.tue.nl/) at Eindhoven University of Technology
+* **Responsible Group**: [Process Analytics group](https://pa.win.tue.nl/) at Eindhoven University of Technology
 * **Responsible Lecturer**: Dr. Felix Mannhardt ([@fmannhardt](https://twitter.com/fmannhardt)) 
 * **Last Update**: 21th April 2021
 
