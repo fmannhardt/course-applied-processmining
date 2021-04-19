@@ -16,17 +16,17 @@ The notebooks in this repository are part of the Process Mining module of the JA
 
 * Lecture Notebooks
     *  R [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/fmannhardt/course-processmining-intro/HEAD?filepath=r%2Flecture1.ipynb)
-    *  Python 
+    *  Python [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/fmannhardt/course-processmining-intro/HEAD?filepath=python%2Flecture1.ipynb)
 
 * Exercise Notebooks
-    *  R 
-    *  Python 
+    *  R **COMING SOON**
+    *  Python **COMING SOON**
 
 ### 'Block 2 - 'Process Discovery'
 
-**TBD**
+**COMING SOON**
 
 ### 'Block 3 - 'Process Mining Applications'
 
-**TBD**
+**COMING SOON**
 

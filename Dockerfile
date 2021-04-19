@@ -18,7 +18,6 @@ USER ${NB_USER}
 
 WORKDIR /home/${NB_USER}
 
-
 ## Use a tag instead of "latest" for reproducibility
 FROM binder
 
