@@ -21,7 +21,7 @@ echo "export PATH=${PATH}" >> ${WORKDIR}/.profile
 su ${NB_USER}
 cd ${WORKDIR}
 python3 -m venv ${PYTHON_VENV_PATH}
-pip3 install --no-cache-dir jupyter-rsession-proxy jupyterlab~=3.0 notebook==5.* pm4py pandas matplotlib plotnine
+pip3 install --no-cache-dir jupyter-rsession-proxy jupyterlab_launcher>=0.5.0 jupyterlab~=3.0 notebook==5.* pm4py pandas matplotlib plotnine
 
 R --quiet -e "devtools::install_github('IRkernel/IRkernel')"
 R --quiet -e "IRkernel::installspec(prefix='${PYTHON_VENV_PATH}')"

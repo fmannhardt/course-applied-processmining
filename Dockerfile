@@ -12,7 +12,7 @@ COPY ./rocker /rocker_scripts
 RUN /rocker_scripts/install_python.sh
 RUN /rocker_scripts/install_binder.sh
 
-CMD jupyter notebook --ip 0.0.0.0
+CMD jupyter-lab
 
 USER ${NB_USER}
 
