@@ -8,7 +8,42 @@ The notebooks in this repository are part of the Process Mining module of the JA
 
 ## Installation \& Usage
 
-**TBD**
+### Using MyBinder
+
+Simply click on the `launch binder` links for either the R or the Python notebook.s
+
+### Run locally
+
+#### Docker
+
+Simply build a Docker image with the provided Dockerfile:
+
+```
+docker build -t fmannhardt/course-processmining-intro .
+```
+
+And start the Docker container running Jupyter on port 8787:
+
+```
+docker run -p 8888:8888 fmannhardt/course-processmining-intro
+```
+
+#### Jupyter
+
+You should be able to run the Jupyter notebooks directly in a Jupyter environment. Please make sure to have installed the following requirements:
+
+**Python**
+
+* pm4py
+* pandas
+* plotline
+
+**R**
+
+* IRkernel 
+* tidyverse
+* bupaR
+* processanimateR
 
 ## Table of Contents
 
