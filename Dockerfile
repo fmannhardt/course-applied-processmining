@@ -27,3 +27,5 @@ COPY --chown=${NB_USER}:${NB_USER} . ${HOME}
 RUN if [ -f install.R ]; then R --quiet -f install.R; fi
 
 RUN R --quiet -e "IRkernel::installspec()"
+
+RUN apt-get install graphviz

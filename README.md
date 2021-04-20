@@ -40,6 +40,13 @@ You should be able to run the Jupyter notebooks directly in a Jupyter environmen
 pip install pandas pm4py plotline
 ```
 
+Make sure to install GraphViz for the visualization. On Windows with Chocolately this should work:
+```
+ choco install graphviz
+```
+Consult the PM4Py documentation for further details:
+https://pm4py.fit.fraunhofer.de/install
+
 **R**
 
 ```
