@@ -1,8 +1,10 @@
-# Process Mining Module -  PDEng program Data Science - JADS 
+# Process Mining Module -  PDEng program Data Science
 
 * **Responsible Group**: [Process Analytics group](https://pa.win.tue.nl/) at Eindhoven University of Technology
 * **Responsible Lecturer**: Dr. Felix Mannhardt ([@fmannhardt](https://twitter.com/fmannhardt)) 
-* **Last Update**: 21th April 2021
+* **Last Update**: 21th April 2021 
+
+**Course under construction**
 
 The notebooks in this repository are part of the Process Mining module of the JADS PDEng program on Data Science. In total there are currently *3* lectures and *3* hands-on exercises in this repository. The collection of notebooks is a *living document* and subject to change. Each lecture and exercise is accompanied by a notebook in both R and Python using the Process Mining frameworks bupaR and PM4Py, respectively.
 
@@ -34,24 +36,26 @@ You should be able to run the Jupyter notebooks directly in a Jupyter environmen
 
 **Python**
 
-* pm4py
-* pandas
-* plotline
+```
+pip install pandas pm4py plotline
+```
 
 **R**
 
-* IRkernel 
-* tidyverse
-* bupaR
-* processanimateR
+```
+install.packages(c("IRkernel", "tidyverse", "bupaR", "processanimateR"))
+```
+
+Depending on your system configuration, it can be tricky to make the `IRkernel` known to Jupyter. Please follow the instructions here: https://github.com/IRkernel/IRkernel
+As a hint, you may need to open the R console from an Anaconda console and perform `IRkernel::installspec()` in case you are using conda environment.
 
 ## Table of Contents
 
 ### Block 1 - 'Event Logs and Process Visualization'
 
 * Lecture Notebooks
-    *  R [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/fmannhardt/course-applied-processmining/HEAD?filepath=r%2Flecture1-eventlogs.ipynb)
-    *  Python [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/fmannhardt/course-applied-processmining/HEAD?filepath=python%2Flecture1-eventlogs.ipynb)
+    *  R [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/fmannhardt/course-applied-processmining/HEAD?urlpath=lab%2Ftree%2Fr%2Flecture1-eventlogs.ipynb)
+    *  Python [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/fmannhardt/course-applied-processmining/HEAD?urlpath=lab%2Ftree%2Fpython%2Flecture1-eventlogs.ipynb)
 
 * Exercise Notebooks
     *  R **COMING SOON**
