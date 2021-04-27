@@ -2,7 +2,7 @@
 
 * **Responsible Group**: [Process Analytics group](https://pa.win.tue.nl/) at Eindhoven University of Technology
 * **Responsible Lecturer**: Dr. Felix Mannhardt ([@fmannhardt](https://twitter.com/fmannhardt)) 
-* **Last Update**: 21th April 2021 
+* **Last Update**: 28th April 2021 
 
 **Course under construction**
 
@@ -23,7 +23,9 @@ The notebooks in this repository are part of the Process Mining module of the JA
 
 ### 'Block 2 - 'Process Discovery'
 
-**COMING SOON**
+* Lecture Notebooks
+    *  [R](r/lecture2-discovery.ipynb) [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/fmannhardt/course-applied-processmining/HEAD?urlpath=lab%2Ftree%2Fr%2Flecture2-discovery.ipynb)
+    *  [Python](python/lecture2-discovery.ipynb) [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/fmannhardt/course-applied-processmining/HEAD?urlpath=lab%2Ftree%2Fpython%2Flecture2-discovery.ipynb)
 
 ### 'Block 3 - 'Process Mining Applications'
 
