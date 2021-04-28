@@ -21,13 +21,13 @@ The notebooks in this repository are part of the Process Mining module of the JA
     *  [R](r/handson1-eventlogs.ipynb) [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/fmannhardt/course-applied-processmining/HEAD?urlpath=lab%2Ftree%2Fr%2Fhandson1-eventlogs.ipynb)
     *  [Python](python/handson1-eventlogs.ipynb) [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/fmannhardt/course-applied-processmining/HEAD?urlpath=lab%2Ftree%2Fpython%2Fhandson1-eventlogs.ipynb)
 
-### 'Block 2 - 'Process Discovery'
+### Block 2 - 'Process Discovery'
 
 * Lecture Notebooks
     *  [R](r/lecture2-discovery.ipynb) [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/fmannhardt/course-applied-processmining/HEAD?urlpath=lab%2Ftree%2Fr%2Flecture2-discovery.ipynb)
     *  [Python](python/lecture2-discovery.ipynb) [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/fmannhardt/course-applied-processmining/HEAD?urlpath=lab%2Ftree%2Fpython%2Flecture2-discovery.ipynb)
 
-### 'Block 3 - 'Process Mining Applications'
+### Block 3 - 'Process Mining Applications'
 
 **COMING SOON** 🚧
 
