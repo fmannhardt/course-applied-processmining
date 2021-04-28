@@ -4,7 +4,7 @@
 * **Responsible Lecturer**: Dr. Felix Mannhardt ([@fmannhardt](https://twitter.com/fmannhardt)) 
 * **Last Update**: 28th April 2021 
 
-**Course under construction**
+**Course under construction** 🚧
 
 The notebooks in this repository are part of the Process Mining module of the JADS PDEng program on Data Science. In total there are currently *3* lectures and *3* hands-on exercises in this repository. The collection of notebooks is a *living document* and subject to change. Each lecture and exercise is accompanied by a notebook in both R and Python using the Process Mining frameworks bupaR and PM4Py, respectively.
 
@@ -29,7 +29,7 @@ The notebooks in this repository are part of the Process Mining module of the JA
 
 ### 'Block 3 - 'Process Mining Applications'
 
-**COMING SOON**
+**COMING SOON** 🚧
 
 
 ## Installation \& Usage
@@ -74,7 +74,7 @@ https://pm4py.fit.fraunhofer.de/install
 **R**
 
 ```
-install.packages(c("IRkernel", "tidyverse", "bupaR", "processanimateR"))
+install.packages(c("IRkernel", "tidyverse", "bupaR", "processanimateR", "petrinetR"))
 ```
 
 Depending on your system configuration, it can be tricky to make the `IRkernel` known to Jupyter. Please follow the instructions here: https://github.com/IRkernel/IRkernel
