@@ -29,7 +29,9 @@ The notebooks in this repository are part of the Process Mining module of the JA
 
 ### Block 3 - 'Process Mining Applications'
 
-**COMING SOON** 🚧
+* Lecture Notebooks
+    *  *TBD*
+    *  [Python](lecture3-conformance.ipynb) [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/fmannhardt/course-applied-processmining/HEAD?urlpath=lab%2Ftree%2Fpython%2Flecture23conformance.ipynb)
 
 
 ## Installation \& Usage
