@@ -1,4 +1,4 @@
-# Process Mining Module -  PDEng program Data Science
+# Applied Process Mining Module
 
 * **Responsible Group**: [Process Analytics group](https://pa.win.tue.nl/) at Eindhoven University of Technology
 * **Responsible Lecturer**: Dr. Felix Mannhardt ([@fmannhardt](https://twitter.com/fmannhardt)) 
@@ -6,7 +6,7 @@
 
 **Course under construction** 🚧
 
-The notebooks in this repository are part of the Process Mining module of the JADS PDEng program on Data Science. In total there are currently *3* lectures and *3* hands-on exercises in this repository. The collection of notebooks is a *living document* and subject to change. Each lecture and exercise is accompanied by a notebook in both R and Python using the Process Mining frameworks bupaR and PM4Py, respectively.
+The notebooks in this repository are part of a Applied Process Mining module. In total there are currently *3* lectures and *3* hands-on exercises in this repository. The collection of notebooks is a *living document* and subject to change. Each lecture and exercise is accompanied by a notebook in both R and Python using the Process Mining frameworks bupaR and PM4Py, respectively.
 
 
 ## Table of Contents
