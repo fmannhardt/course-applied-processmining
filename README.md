@@ -2,11 +2,10 @@
 
 * **Responsible Group**: [Process Analytics group](https://pa.win.tue.nl/) at Eindhoven University of Technology
 * **Responsible Lecturer**: Dr. Felix Mannhardt ([@fmannhardt](https://twitter.com/fmannhardt)) 
-* **Last Update**: 28th April 2021 
 
 **Course under construction** 🚧
 
-The notebooks in this repository are part of a Applied Process Mining module. In total there are currently *3* lectures and *3* hands-on exercises in this repository. The collection of notebooks is a *living document* and subject to change. Each lecture and exercise is accompanied by a notebook in both R and Python using the Process Mining frameworks bupaR and PM4Py, respectively.
+The notebooks in this repository are part of an Applied Process Mining module. In total there are currently *3* lectures and *3* hands-on exercises in this repository. The collection of notebooks is a *living document* and subject to change. Each lecture and exercise is accompanied by a notebook in both R and Python using the Process Mining frameworks bupaR and PM4Py, respectively.
 
 
 ## Table of Contents
@@ -27,7 +26,7 @@ The notebooks in this repository are part of a Applied Process Mining module. In
     *  [R](r/lecture2-discovery.ipynb) [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/fmannhardt/course-applied-processmining/HEAD?urlpath=lab%2Ftree%2Fr%2Flecture2-discovery.ipynb)
     *  [Python](python/lecture2-discovery.ipynb) [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/fmannhardt/course-applied-processmining/HEAD?urlpath=lab%2Ftree%2Fpython%2Flecture2-discovery.ipynb)
 
-### Block 3 - 'Process Mining Applications'
+### Block 3 - 'Conformance Checking'
 
 * Lecture Notebooks
     *  *TBD*
