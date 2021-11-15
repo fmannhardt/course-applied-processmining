@@ -38,6 +38,14 @@ The notebooks in this repository are part of an Applied Process Mining module. I
 * Assignment Notebooks
     * *TBD*
 
+### Block 4 - 'Predictive Process Mining'
+
+* Lecture Notebooks
+    *  *TBD*
+
+* Assignment Notebooks
+    * *TBD*
+
 ## Installation \& Usage
 
 ### Using MyBinder

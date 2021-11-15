@@ -1,1 +1,1 @@
-install.packages(c("bupaR", "processanimateR", "xesreadR", "heuristicsmineR", "petrinetR"))
+install.packages(c("bupaR", "processanimateR", "xesreadR", "heuristicsmineR", "petrinetR", "R.utils"))
