@@ -16,7 +16,7 @@ The notebooks in this repository are part of an Applied Process Mining module. I
     *  [R](r/lecture1-eventlogs.ipynb) [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/fmannhardt/course-applied-processmining/HEAD?urlpath=lab%2Ftree%2Fr%2Flecture1-eventlogs.ipynb)
     *  [Python](python/lecture1-eventlogs.ipynb) [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/fmannhardt/course-applied-processmining/HEAD?urlpath=lab%2Ftree%2Fpython%2Flecture1-eventlogs.ipynb)
 
-* Hands-on Notebooks
+* Assignment Notebooks
     *  [R](r/handson1-eventlogs.ipynb) [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/fmannhardt/course-applied-processmining/HEAD?urlpath=lab%2Ftree%2Fr%2Fhandson1-eventlogs.ipynb)
     *  [Python](python/handson1-eventlogs.ipynb) [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/fmannhardt/course-applied-processmining/HEAD?urlpath=lab%2Ftree%2Fpython%2Fhandson1-eventlogs.ipynb)
 
@@ -26,12 +26,17 @@ The notebooks in this repository are part of an Applied Process Mining module. I
     *  [R](r/lecture2-discovery.ipynb) [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/fmannhardt/course-applied-processmining/HEAD?urlpath=lab%2Ftree%2Fr%2Flecture2-discovery.ipynb)
     *  [Python](python/lecture2-discovery.ipynb) [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/fmannhardt/course-applied-processmining/HEAD?urlpath=lab%2Ftree%2Fpython%2Flecture2-discovery.ipynb)
 
+* Assignment Notebooks
+    * *TBD*
+
 ### Block 3 - 'Conformance Checking'
 
 * Lecture Notebooks
     *  *TBD*
     *  [Python](python/lecture3-conformance.ipynb) [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/fmannhardt/course-applied-processmining/HEAD?urlpath=lab%2Ftree%2Fpython%2Flecture3-conformance.ipynb)
 
+* Assignment Notebooks
+    * *TBD*
 
 ## Installation \& Usage
 
