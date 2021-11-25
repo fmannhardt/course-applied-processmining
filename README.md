@@ -3,54 +3,46 @@
 * **Responsible Group**: [Process Analytics group](https://pa.win.tue.nl/) at Eindhoven University of Technology
 * **Responsible Lecturer**: Dr. Felix Mannhardt ([@fmannhardt](https://twitter.com/fmannhardt)) 
 
-**Course under construction** 🚧
-
 The notebooks in this repository are part of an Applied Process Mining module. In total there are currently *3* lectures and *3* hands-on exercises in this repository. The collection of notebooks is a *living document* and subject to change. Each lecture and exercise is accompanied by a notebook in both R and Python using the Process Mining frameworks bupaR and PM4Py, respectively.
 
 
 ## Table of Contents
 
+### Assignment
+
+The proposed real-life dataset to investigate is the *BPI Challenge 2020* dataset. Please find more information in the respective Assignment notebooks:
+
+*  [R](r/assignment.ipynb) [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/fmannhardt/course-applied-processmining/HEAD?urlpath=lab%2Ftree%2Fr%2Fassignment.ipynb)
+*  [Python](python/assignment.ipynb) [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/fmannhardt/course-applied-processmining/HEAD?urlpath=lab%2Ftree%2Fpython%2Fassignment.ipynb)
+
 ### Block 1 - 'Event Logs and Process Visualization'
 
 * Lecture Notebooks
-    *  [R](r/lecture1-eventlogs.ipynb) [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/fmannhardt/course-applied-processmining/HEAD?urlpath=lab%2Ftree%2Fr%2Flecture1-eventlogs.ipynb)
-    *  [Python](python/lecture1-eventlogs.ipynb) [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/fmannhardt/course-applied-processmining/HEAD?urlpath=lab%2Ftree%2Fpython%2Flecture1-eventlogs.ipynb)
-
-* Assignment Notebooks
-    *  [R](r/handson1-eventlogs.ipynb) [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/fmannhardt/course-applied-processmining/HEAD?urlpath=lab%2Ftree%2Fr%2Fhandson1-eventlogs.ipynb)
-    *  [Python](python/handson1-eventlogs.ipynb) [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/fmannhardt/course-applied-processmining/HEAD?urlpath=lab%2Ftree%2Fpython%2Fhandson1-eventlogs.ipynb)
+    *  [R](r/lecture1-eventlogs.ipynb) [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/fmannhardt/course-applied-processmining/HEAD?urlpath=lab%2Ftree%2Fr%2Flecture1-eventlogs.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/fmannhardt/course-applied-processmining/blob/master/r/lecture1-eventlogs.ipynb)
+    *  [Python](python/lecture1-eventlogs.ipynb) [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/fmannhardt/course-applied-processmining/HEAD?urlpath=lab%2Ftree%2Fpython%2Flecture1-eventlogs.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/fmannhardt/course-applied-processmining/blob/master/python/lecture1-eventlogs.ipynb)
 
 ### Block 2 - 'Process Discovery'
 
 * Lecture Notebooks
-    *  [R](r/lecture2-discovery.ipynb) [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/fmannhardt/course-applied-processmining/HEAD?urlpath=lab%2Ftree%2Fr%2Flecture2-discovery.ipynb)
+    *  [R](r/lecture2-discovery.ipynb) [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/fmannhardt/course-applied-processmining/HEAD?urlpath=lab%2Ftree%2Fr%2Flecture2-discovery.ipynb) 
     *  [Python](python/lecture2-discovery.ipynb) [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/fmannhardt/course-applied-processmining/HEAD?urlpath=lab%2Ftree%2Fpython%2Flecture2-discovery.ipynb)
-
-* Assignment Notebooks
-    * *TBD*
 
 ### Block 3 - 'Conformance Checking'
 
 * Lecture Notebooks
-    *  *TBD*
+    *  🚧 (there is currently not conformance checking functionality in R)
     *  [Python](python/lecture3-conformance.ipynb) [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/fmannhardt/course-applied-processmining/HEAD?urlpath=lab%2Ftree%2Fpython%2Flecture3-conformance.ipynb)
-
-* Assignment Notebooks
-    * *TBD*
 
 ### Block 4 - 'Predictive Process Mining'
 
 * Lecture Notebooks
-    *  *TBD*
-
-* Assignment Notebooks
-    * *TBD*
+    *  🚧
 
 ## Installation \& Usage
 
 ### Using MyBinder
 
-Simply click on the `launch binder` links for either the R or the Python notebook.s
+Simply click on the `launch binder` links for either the R or the Python notebook. You may also use the Google Colab service by clicking on the Google Colab links, however, you may need to prepare the Google Colab environment to have the respective packages installed.
 
 ### Run locally
 
@@ -88,7 +80,7 @@ https://pm4py.fit.fraunhofer.de/install
 **R**
 
 ```
-install.packages(c("IRkernel", "tidyverse", "bupaR", "processanimateR", "petrinetR"))
+install.packages(c("IRkernel", "tidyverse", "bupaR", "processanimateR", "petrinetR", "R.utils"))
 ```
 
 Depending on your system configuration, it can be tricky to make the `IRkernel` known to Jupyter. Please follow the instructions here: https://github.com/IRkernel/IRkernel
