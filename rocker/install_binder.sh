@@ -21,7 +21,7 @@ echo "export PATH=${PATH}" >> ${WORKDIR}/.profile
 su ${NB_USER}
 cd ${WORKDIR}
 python3 -m venv ${PYTHON_VENV_PATH}
-pip3 install --no-cache-dir jupyter-rsession-proxy ipywidgets==7.6.3 jupyterlab==3.0.7 notebook==6.2.0 nteract_on_jupyter==2.1.3 pm4py pandas matplotlib plotnine ipywidgets
+pip3 install --no-cache-dir jupyter-rsession-proxy ipywidgets==7.6.3 jupyterlab==3.0.7 notebook==6.2.0 nteract_on_jupyter==2.1.3 pm4py pandas matplotlib plotnine ipywidgets torch tqdm
 
 R --quiet -e "devtools::install_github('IRkernel/IRkernel')"
 R --quiet -e "IRkernel::installspec(prefix='${PYTHON_VENV_PATH}')"
