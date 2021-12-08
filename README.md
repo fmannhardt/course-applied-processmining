@@ -36,7 +36,8 @@ The proposed real-life dataset to investigate is the *BPI Challenge 2020* datase
 ### Block 4 - 'Predictive Process Mining'
 
 * Lecture Notebooks
-    *  🚧
+    *  🚧 (R version is under construction)
+    * [Python](python/lecture4-prediction.ipynb) [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/fmannhardt/course-applied-processmining/HEAD?urlpath=lab%2Ftree%2Fpython%2Flecture4-prediction.ipynb)
 
 ## Installation \& Usage
 
