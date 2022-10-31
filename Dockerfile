@@ -1,4 +1,4 @@
-FROM rocker/binder:4.1.3
+FROM rocker/binder:4.2.1
 
 ARG NB_USER
 ARG NB_UID
