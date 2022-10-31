@@ -52,13 +52,19 @@ Simply click on the `launch binder` links for either the R or the Python noteboo
 Simply build a Docker image with the provided Dockerfile:
 
 ```
-docker build -t fmannhardt/course-processmining-intro .
+docker build -t fmannhardt/course-applied-processmining .
 ```
 
-And start the Docker container running Jupyter on port 8888:
+And start the Docker container running Jupyter on [http://localhost:8888?token=processmining](localhost:8888):
 
 ```
-docker run -p 8888:8888 fmannhardt/course-processmining-intro
+docker run --rm -ti -e JUPYTER_TOKEN=processmining -p 8888:8888 fmannhardt/course-applied-processmining
+```
+
+or use the Jupyter Lab interface:
+
+```
+docker run --rm -ti -e JUPYTER_TOKEN=processmining -p 8888:8888 fmannhardt/course-applied-processmining sh -c "jupyter lab --ip 0.0.0.0 --no-browser"
 ```
 
 #### Jupyter
@@ -68,7 +74,7 @@ You should be able to run the Jupyter notebooks directly in a Jupyter environmen
 **Python**
 
 ```
-pip install pandas pm4py plotline
+pip install -r requirements.txt
 ```
 
 Make sure to install GraphViz for the visualization. On Windows with Chocolately this should work:
@@ -80,9 +86,15 @@ https://pm4py.fit.fraunhofer.de/install
 
 **R**
 
+Install the Jupyter kernel for R:
 ```
-install.packages(c("IRkernel", "tidyverse", "bupaR", "processanimateR", "petrinetR", "R.utils"))
+install.packages(c("IRkernel"))
 ```
 
-Depending on your system configuration, it can be tricky to make the `IRkernel` known to Jupyter. Please follow the instructions here: https://github.com/IRkernel/IRkernel
+and install the nessecary packages:
+```
+R --quiet -f install.R
+```
+
+Depending on your system configuration, it can be tricky to make the `IRkernel` known to Jupyter. Please follow the instructions on their [https://github.com/IRkernel/IRkernel](Github page). 
 As a hint, you may need to open the R console from an Anaconda console and perform `IRkernel::installspec()` in case you are using conda environment.

@@ -1,7 +1,2 @@
 .ipynb_checkpoints
 .vscode
-data/Lfull.xes
-data/dom_decl.xes.gz
-data/int_decl.xes.gz
-data/ptc.xes.gz
-data/rfp.xes.gz
