@@ -1,7 +1,7 @@
 # Applied Process Mining Module
 
-* **Responsible Group**: [Process Analytics group](https://pa.win.tue.nl/) at Eindhoven University of Technology
-* **Responsible Lecturer**: Dr. Felix Mannhardt ([@fmannhardt](https://twitter.com/fmannhardt)) 
+* **Group**: [Process Analytics group](https://pa.win.tue.nl/) at Eindhoven University of Technology
+* **Lecturer**: Dr. Felix Mannhardt ([@fmannhardt](https://twitter.com/fmannhardt)) 
 
 The notebooks in this repository are part of an Applied Process Mining module. In total there are currently *4* lectures and the associated hands-on notebooks in this repository. The collection of notebooks is a *living document* and subject to change. Each lecture is accompanied by a notebook in both R and Python using the Process Mining frameworks bupaR and PM4Py, respectively.
 
@@ -55,7 +55,7 @@ Simply build a Docker image with the provided Dockerfile:
 docker build -t fmannhardt/course-processmining-intro .
 ```
 
-And start the Docker container running Jupyter on port 8787:
+And start the Docker container running Jupyter on port 8888:
 
 ```
 docker run -p 8888:8888 fmannhardt/course-processmining-intro
@@ -73,7 +73,7 @@ pip install pandas pm4py plotline
 
 Make sure to install GraphViz for the visualization. On Windows with Chocolately this should work:
 ```
- choco install graphviz
+choco install graphviz
 ```
 Consult the PM4Py documentation for further details:
 https://pm4py.fit.fraunhofer.de/install

@@ -1,7 +1,7 @@
 # Applied Process Mining Module
 
-* **Responsible Group**: [Process Analytics group](https://pa.win.tue.nl/) at Eindhoven University of Technology
-* **Responsible Lecturer**: Dr. Felix Mannhardt ([@fmannhardt](https://twitter.com/fmannhardt)) 
+* **Group**: [Process Analytics group](https://pa.win.tue.nl/) at Eindhoven University of Technology
+* **Lecturer**: Dr. Felix Mannhardt ([@fmannhardt](https://twitter.com/fmannhardt)) 
 
 **Course under construction** 🚧
 
