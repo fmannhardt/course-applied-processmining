@@ -1,4 +1,7 @@
-FROM rocker/binder:4.2.1
+FROM rocker/binder:4.1.3
+
+ARG NB_USER
+ARG NB_UID
 
 COPY --chown=${NB_USER}:${NB_USER} . ${HOME}
 
@@ -6,6 +9,6 @@ COPY --chown=${NB_USER}:${NB_USER} . ${HOME}
 RUN if [ -f install.R ]; then R --quiet -f install.R; fi
 
 USER root
-RUN python3 -m pip install -r requirements.txt
-RUN apt-get update && apt-get -y install graphviz
+RUN python3 -m pip install --no-cache-dir -r requirements.txt && rm -rf /tmp/* /var/tmp/*
+RUN apt-get update && apt-get -y install graphviz && apt-get clean && rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
 USER ${NB_USER}

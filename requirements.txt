@@ -1,6 +1,13 @@
 pm4py
-pandas
+numpy 
+pandas 
+networkx 
+deprecation
 matplotlib
+scipy
+sklearn
+lxml 
+graphviz
 plotnine
 torch
 tqdm
