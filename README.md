@@ -8,13 +8,6 @@ The notebooks in this repository are part of an Applied Process Mining module. I
 
 ## Table of Contents
 
-### Assignment
-
-The proposed real-life dataset to investigate during this course is the *BPI Challenge 2020* dataset. Please find more information in the respective Assignment notebooks:
-
-*  [R](r/assignment.ipynb) [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/fmannhardt/course-applied-processmining/HEAD?urlpath=lab%2Ftree%2Fr%2Fassignment.ipynb)
-*  [Python](python/assignment.ipynb) [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/fmannhardt/course-applied-processmining/HEAD?urlpath=lab%2Ftree%2Fpython%2Fassignment.ipynb)
-
 ### Block 1 - 'Event Logs and Process Visualization'
 
 * Lecture Notebooks

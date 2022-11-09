@@ -5,7 +5,7 @@ networkx
 deprecation
 matplotlib
 scipy
-sklearn
+scikit-learn
 lxml 
 graphviz
 plotnine
