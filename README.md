@@ -1,9 +1,6 @@
 # Applied Process Mining Module
 
-* **Group**: [Process Analytics group](https://pa.win.tue.nl/) at Eindhoven University of Technology
-* **Lecturer**: Dr. Felix Mannhardt ([@fmannhardt](https://twitter.com/fmannhardt)) 
-
-The notebooks in this repository are part of an Applied Process Mining module. In total there are currently *4* lectures and the associated hands-on notebooks in this repository. The collection of notebooks is a *living document* and subject to change. Each lecture is accompanied by a notebook in both R and Python using the Process Mining frameworks bupaR and PM4Py, respectively.
+The notebooks in this repository are part of a course on Applied Process Mining module given by Dr. Felix Mannhardt ([@fmannhardt](https://twitter.com/fmannhardt)) of [Process Analytics group](https://pa.win.tue.nl/) at Eindhoven University of Technology. In total there are currently *4* lectures and the associated hands-on notebooks in this repository. The collection of notebooks is a *living document* and subject to change. Each lecture is accompanied by a notebook in both R and Python using the Process Mining frameworks bupaR and PM4Py, respectively.
 
 
 ## Table of Contents
@@ -67,7 +64,6 @@ You should be able to run the Jupyter notebooks directly in a Jupyter environmen
 **Python**
 
 ```
-pip install pm4py
 pip install -r requirements.txt
 ```
 
