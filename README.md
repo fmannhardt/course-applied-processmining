@@ -1,6 +1,6 @@
-# Applied Process Mining Module
+# Applied Process Mining
 
-The notebooks in this repository are part of a course on Applied Process Mining module given by Dr. Felix Mannhardt ([@fmannhardt](https://twitter.com/fmannhardt)) of [Process Analytics group](https://pa.win.tue.nl/) at Eindhoven University of Technology. In total there are currently *4* lectures and the associated hands-on notebooks in this repository. The collection of notebooks is a *living document* and subject to change. Each lecture is accompanied by a notebook in both R and Python using the Process Mining frameworks bupaR and PM4Py, respectively.
+The notebooks in this repository are part of a course on Applied Process Mining course given by Dr. Felix Mannhardt ([@fmannhardt](https://twitter.com/fmannhardt)) of [Process Analytics group](https://pa.win.tue.nl/) at Eindhoven University of Technology. In total there are currently *4* lectures and the associated hands-on notebooks in this repository. The collection of notebooks is a *living document* and subject to change. Each lecture is accompanied by a notebook in both R and Python using the Process Mining frameworks bupaR and PM4Py, respectively.
 
 
 ## Table of Contents
