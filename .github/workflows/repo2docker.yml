@@ -10,7 +10,7 @@ jobs:
       uses: actions/checkout@master
 
     - name: update jupyter dependencies with repo2docker
-      uses: jupyterhub/repo2docker-action@485a8ad097e0bfeda06777110702e79ca9c01a0c
+      uses: jupyterhub/repo2docker-action@1835b83b93ae93043d30c85210766d957df68f3f
       with:
         DOCKER_USERNAME: ${{ github.actor }}
         DOCKER_PASSWORD: ${{ secrets.GITHUB_TOKEN }}
